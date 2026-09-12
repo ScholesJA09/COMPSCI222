@@ -208,9 +208,9 @@ static void task3()
 	for (int i = 0; i < employees; i++)
 	{
 		std::cout << "Employee #" << i + 1 << " worked " << hours[i] << " hours at a rate of $" << wages[i] << "/hr for a total of $" << gross_pay[i] << std::endl;
-
-		index_highest_paid = max_gross_pay(gross_pay, i);
 	}
+
+	index_highest_paid = max_gross_pay(gross_pay, employees);
 
 	std::cout << "The highest paid employee was Employee #" << index_highest_paid + 1 << " who worked " << hours[index_highest_paid] << " hours at a rate of $" << wages[index_highest_paid] << "/hr for a total of $" << gross_pay[index_highest_paid] << std::endl;
 
