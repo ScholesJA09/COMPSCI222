@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PA1.cpp" />
+    <ClCompile Include="PA2.cpp" />
+    <ClCompile Include="product.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="product.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
