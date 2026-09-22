@@ -15,17 +15,17 @@ person::person(const std::string& name, int id, double salary)
 	set_salary(salary);
 }
 
-std::string person::get_name()
+std::string person::get_name() const
 {
 	return name;
 }
 
-int person::get_id()
+int person::get_id() const
 {
 	return id;
 }
 
-double person::get_salary()
+double person::get_salary() const
 {
 	return salary;
 }
@@ -48,7 +48,7 @@ void person::set_salary(double salary)
 	this->salary = salary;
 }
 
-void person::print()
+void person::print() const
 {
 	std::cout << name << " (" << id << ") $" << salary << std::endl;
 }
