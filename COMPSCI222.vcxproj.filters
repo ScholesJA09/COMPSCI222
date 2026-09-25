@@ -15,8 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03 BasicFileIO.cpp">
+    <ClCompile Include="movie2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LE3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="movie2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies-007.csv" />
   </ItemGroup>
 </Project>

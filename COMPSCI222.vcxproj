@@ -19,7 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03 BasicFileIO.cpp" />
+    <ClCompile Include="LE3.cpp" />
+    <ClCompile Include="movie2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="movie2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies-007.csv" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
