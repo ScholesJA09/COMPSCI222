@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="movie2.cpp">
+    <ClCompile Include="PA3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LE3.cpp">
+    <ClCompile Include="team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="movie2.h">
+    <None Include="NFL-2018-Standings.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="team.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="movies-007.csv" />
   </ItemGroup>
 </Project>

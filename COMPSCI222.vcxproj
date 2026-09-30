@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LE3.cpp" />
-    <ClCompile Include="movie2.cpp" />
+    <ClCompile Include="PA3.cpp" />
+    <ClCompile Include="team.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="movie2.h" />
+    <None Include="NFL-2018-Standings.csv" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="movies-007.csv" />
+    <ClInclude Include="team.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
