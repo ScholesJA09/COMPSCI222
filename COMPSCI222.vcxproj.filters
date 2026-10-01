@@ -29,5 +29,8 @@
     <ClInclude Include="team.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClCompile Include="05 Algorithms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
