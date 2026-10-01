@@ -63,6 +63,55 @@ int max_index(const double* array, int size)
 	return max_index;
 }
 
+void selection_sort(double* array, int size)
+{
+	for (int i = 0; i < size - 1; i++)
+	{
+		int min_index = i;
+		for (int j = i + 1; j < size; j++)
+		{
+			if (array[j] < array[min_index]) //Ascending Order
+			{
+				min_index = j;
+			}
+		}
+
+		/*if (min_index != i)
+		{ 
+			double temp = array[i];
+			array[i] = array[min_index];
+			array[min_index] = temp;
+		}*/
+
+		std::swap(array[i], array[min_index]); //Same as above code for swapping
+	}
+}
+//Base Case: Order of 0 swaps
+//Worst Case: Order of n swaps
+//Base Case: Order of n^2 time
+//Worst Case: Order of n^2 time
+
+void insertion_sort(double* array, int size)
+{
+	for (int i = 1; i < size; i++)
+	{
+		int j = i;
+		double key = array[i];
+
+		while (j > 0 && key < array[j - 1])
+		{
+			array[j] = array[j - 1];
+			j--;
+		}
+
+		array[j] = key; //Minimizes number of writes
+	}
+}
+//Best Case: Order of 0 swaps
+//Worst Case: Order of n^2 swaps
+//Base Case: Order of n time
+//Worst Case: Order of n^2 time
+
 int main()
 {
 	double nums[] = {7.6, 9.5, 6.2, 3.6, 2.8, 5.4, 1.2, 8.9, 8.3, 5.6}; 

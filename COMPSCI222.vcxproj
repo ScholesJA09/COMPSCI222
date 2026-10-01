@@ -19,14 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PA3.cpp" />
-    <ClCompile Include="team.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="NFL-2018-Standings.csv" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="team.h" />
     <ClCompile Include="05 Algorithms.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
