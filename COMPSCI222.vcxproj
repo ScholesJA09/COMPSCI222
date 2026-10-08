@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LE4.cpp" />
+    <ClCompile Include="06 Inheritance.cpp" />
+    <ClCompile Include="animal.cpp" />
+    <ClCompile Include="dog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animal.h" />
+    <ClInclude Include="dog.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
