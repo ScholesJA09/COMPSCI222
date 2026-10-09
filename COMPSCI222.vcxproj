@@ -19,13 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="06 Inheritance.cpp" />
-    <ClCompile Include="animal.cpp" />
-    <ClCompile Include="dog.cpp" />
+    <ClCompile Include="computer.cpp" />
+    <ClCompile Include="desktop.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="laptop.cpp" />
+    <ClCompile Include="LE5.cpp" />
+    <ClCompile Include="television.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
-    <ClInclude Include="dog.h" />
+    <ClInclude Include="computer.h" />
+    <ClInclude Include="desktop.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="laptop.h" />
+    <ClInclude Include="television.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
