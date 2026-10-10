@@ -18,21 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="computer.cpp" />
-    <ClCompile Include="desktop.cpp" />
-    <ClCompile Include="item.cpp" />
-    <ClCompile Include="laptop.cpp" />
-    <ClCompile Include="LE5.cpp" />
-    <ClCompile Include="television.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="computer.h" />
-    <ClInclude Include="desktop.h" />
-    <ClInclude Include="item.h" />
-    <ClInclude Include="laptop.h" />
-    <ClInclude Include="television.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

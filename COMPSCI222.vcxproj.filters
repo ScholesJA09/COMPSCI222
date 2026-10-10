@@ -14,41 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LE5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="item.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="computer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="television.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="laptop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="desktop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="item.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="computer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="television.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="laptop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="desktop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>
