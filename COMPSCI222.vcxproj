@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="employee2.h" />
+    <ClInclude Include="graduate_student.h" />
+    <ClInclude Include="instructor.h" />
+    <ClInclude Include="person3.h" />
+    <ClInclude Include="student.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="employee2.cpp" />
+    <ClCompile Include="graduate_student.cpp" />
+    <ClCompile Include="instructor.cpp" />
+    <ClCompile Include="PA5.cpp" />
+    <ClCompile Include="person3.cpp" />
+    <ClCompile Include="student.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
