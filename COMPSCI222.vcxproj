@@ -19,19 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="employee2.h" />
-    <ClInclude Include="graduate_student.h" />
-    <ClInclude Include="instructor.h" />
-    <ClInclude Include="person3.h" />
-    <ClInclude Include="student.h" />
+    <ClCompile Include="10 Enums &amp; Switch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="employee2.cpp" />
-    <ClCompile Include="graduate_student.cpp" />
-    <ClCompile Include="instructor.cpp" />
-    <ClCompile Include="PA5.cpp" />
-    <ClCompile Include="person3.cpp" />
-    <ClCompile Include="student.cpp" />
+    <ClInclude Include="day.h" />
+    <ClInclude Include="month.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
