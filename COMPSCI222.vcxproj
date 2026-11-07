@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10 Enums &amp; Switch.cpp" />
+    <ClInclude Include="order.h" />
+    <ClInclude Include="status.h" />
+    <ClInclude Include="type.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="day.h" />
-    <ClInclude Include="month.h" />
+    <ClCompile Include="LE8.cpp" />
+    <ClCompile Include="order.cpp" />
+    <ClCompile Include="status.cpp" />
+    <ClCompile Include="type.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
