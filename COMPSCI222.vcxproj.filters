@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="14 SetAndMap.cpp">
+    <ClCompile Include="15 FunctionalProgramming.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

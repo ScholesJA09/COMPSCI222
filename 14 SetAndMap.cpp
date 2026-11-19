@@ -76,7 +76,7 @@ void map_demo()
 		//Getting id and name per map
 	}
 
-	//names at KEY 500
+	//names at KEY 5000
 	//If exists, changes name to "Roger", if not it will insert new key value pair
 	names[5000] = "Roger"; //Replaces "Stephen" with "Roger"
 	names[8765] = "Nick"; //Adds "Nick" at key value 8765
@@ -88,6 +88,28 @@ void map_demo()
 	for (const std::pair<int, std::string>& entry : names)
 	{
 		std::cout << entry.first << ":\t" << entry.second << std::endl;
+		//Iterator has first and second members
+	}
+
+	//ONLY NEED KEY
+	if (names.count(9876)) //Returns true if map contains key value 9876
+	{
+		std::cout << "Yes, the map contains that key." << std::endl;
+	}
+	else
+	{
+		std::cout << "No, the map does not contain that key." << std::endl;
+	}
+
+	//MORE EFFIFIENT WITH ITERATOR - GET KEY AND VALUE
+	std::map<int, std::string>::iterator find_id = names.find(9999);
+	if (find_id == names.end()) //Iterates through entire map
+	{
+		std::cout << "No, the map does not contain that key." << std::endl;
+	}
+	else
+	{
+		std::cout << "Yes, the map contains the key " << find_id->first << " with value " << find_id->second << std::endl;
 	}
 }
 
